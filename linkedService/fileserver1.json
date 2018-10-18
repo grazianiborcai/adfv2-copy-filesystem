@@ -1,0 +1,16 @@
+{
+	"name": "fileserver1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\shared",
+			"userId": "grazi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NGI3OGFiZi05NzkyLTQ5ZGEtOTI3Mi0xODNjYmFmNDMwZmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

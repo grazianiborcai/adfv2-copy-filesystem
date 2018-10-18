@@ -1,0 +1,24 @@
+{
+	"name": "FileShareTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "fileserver1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "FileShare",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": "\t",
+				"rowDelimiter": "",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": false
+			},
+			"fileName": "test.txt",
+			"folderPath": "test_files"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
